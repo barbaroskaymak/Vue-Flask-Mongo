@@ -1,14 +1,11 @@
-
-
-from email.policy import default
 from flask_cors import CORS
-from flask import Flask, jsonify, request # flask kütüphanemizi projemize import ettik.
+from flask import Flask, jsonify 
 from flask_mongoengine import MongoEngine
 from flask_restful import Resource, Api,reqparse,inputs
 from datetime import date
 
 
-app = Flask(__name__) # app değişkenizimizin Flask olduğunu belirttik.
+app = Flask(__name__) 
 app.config['MONGO_URI'] = {
    'host':'mongodb://localhost:27017/deneme'
    
