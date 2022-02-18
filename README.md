@@ -3,7 +3,9 @@
 
     $ cd Server
     
-    $ python3.9 -m venv env
+    $ pip install virtualenv 
+    
+    $ virtualenv venv
     
     $ source venv/bin/activate win venv\Scripts\activate
     
