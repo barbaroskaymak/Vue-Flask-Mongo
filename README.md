@@ -13,6 +13,8 @@
     
     (venv)$ pip install -r requirements.txt
     
+    Open app.py Mongodb URI/(host) edit.
+    
     (venv)$ flask run
 
 
