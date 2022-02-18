@@ -7,7 +7,7 @@
     
     $ virtualenv venv
     
-    $ source venv/bin/activate win venv\Scripts\activate
+    $ source venv/bin/activate " for win " venv\Scripts\activate
     
     (venv)$ python -m pip install --upgrade pip
     
