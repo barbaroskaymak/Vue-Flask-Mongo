@@ -1,7 +1,7 @@
 
 1. Run the server-side Flask app in one terminal window
 
-    $ cd server
+    $ cd Server
     
     $ python3.9 -m venv env
     
@@ -18,7 +18,7 @@
 
 1. Run the client-side Vue app in a different terminal window:
 
-    $ cd 
+    $ cd client
     
     $ npm install
     
