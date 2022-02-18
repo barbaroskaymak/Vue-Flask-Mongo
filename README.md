@@ -7,6 +7,8 @@
     
     $ source venv/bin/activate win venv\Scripts\activate
     
+    (venv)$ python -m pip install --upgrade pip
+    
     (venv)$ pip install -r requirements.txt
     
     (venv)$ flask run
