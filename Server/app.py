@@ -83,7 +83,6 @@ class single_book(Resource):
 
 
 #End-Point
-TODOS(title="barbaros",description="kaymak",is_completed=False).save()
 api.add_resource(all_books, '/todos')
 api.add_resource(single_book, '/todos/<book_id>')
 
