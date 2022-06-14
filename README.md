@@ -1,5 +1,5 @@
 
-1. Run the server-side Flask app in one terminal window
+## Run the server-side Flask app in one terminal window
 
     $ cd Server
     
@@ -20,7 +20,7 @@
 
     Navigate to [http://localhost:5000](http://localhost:5000)
 
-1. Run the client-side Vue app in a different terminal window:
+## Run the client-side Vue app in a different terminal window:
 
     $ cd client
     
